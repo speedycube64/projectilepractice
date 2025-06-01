@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.fabricmc.projectilepractice.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "SnowballMixin",
+    "EnderPearlMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

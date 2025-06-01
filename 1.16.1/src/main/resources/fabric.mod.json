@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "projectilepractice",
+  "version": "${version}",
+  "name": "Projectile Practice",
+  "description": "tells you how long an ender pearl or snowball flew",
+  "authors": [
+    "speedycube64"
+  ],
+  "contact": {
+    "homepage": "https://www.youtube.com/watch?v=nerHem1WVGI",
+    "sources": "https://www.youtube.com/watch?v=SHwuAGoo1-A"
+  },
+  "license": "MPL-2.0",
+  "environment": "*",
+  "mixins": [
+    "projectilepractice.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "*",
+    "fabricloader": ">=0.15.0"
+  }
+}
